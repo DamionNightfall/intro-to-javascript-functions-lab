@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript Functions Lab</title>
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+	</head>
+	<body>
+		<h1>JavaScript Functions Lab</h1>
+
+		<!-- Exercise 1: Max of Two Numbers -->
+		<div class="exercise">
+			<h2>Exercise 1: Max of Two Numbers</h2>
+			<input
+				type="number"
+				id="num1"
+				placeholder="Enter first number" />
+			<input
+				type="number"
+				id="num2"
+				placeholder="Enter second number" />
+			<button onclick="maxOfTwoNumbers()">Find Max</button>
+			<p id="maxResult"></p>
+		</div>
+
+		<!-- Exercise 2: Is Adult -->
+		<div class="exercise">
+			<h2>Exercise 2: Is Adult</h2>
+			<input
+				type="number"
+				id="ageInput"
+				placeholder="Enter age" />
+			<button onclick="isAdult()">Check Age</button>
+			<p id="ageResult"></p>
+		</div>
+
+		<!-- Exercise 3: Is Character a Vowel -->
+		<div class="exercise">
+			<h2>Exercise 3: Is Character a Vowel</h2>
+			<input
+				type="text"
+				id="charInput"
+				maxlength="1"
+				placeholder="Enter a character" />
+			<button onclick="isCharAVowel()">Check Vowel</button>
+			<p id="vowelResult"></p>
+		</div>
+
+		<!-- Exercise 4: Generate Email -->
+		<div class="exercise">
+			<h2>Exercise 4: Generate Email</h2>
+			<input
+				type="text"
+				id="nameInput"
+				placeholder="Enter name" />
+			<input
+				type="text"
+				id="domainInput"
+				placeholder="Enter domain" />
+			<button onclick="generateEmail()">Generate Email</button>
+			<p id="emailResult"></p>
+		</div>
+
+		<!-- Exercise 5: Greet User -->
+		<div class="exercise">
+			<h2>Exercise 5: Greet User</h2>
+			<input
+				type="text"
+				id="userName"
+				placeholder="Enter name" />
+			<input
+				type="text"
+				id="timeOfDay"
+				placeholder="Enter time of day (e.g., morning)" />
+			<button onclick="greetUser()">Greet</button>
+			<p id="greetResult"></p>
+		</div>
+
+		<!-- Exercise 6: Max of Three Numbers -->
+		<div class="exercise">
+			<h2>Exercise 6: Max of Three Numbers</h2>
+			<input
+				type="number"
+				id="numA"
+				placeholder="Enter first number" />
+			<input
+				type="number"
+				id="numB"
+				placeholder="Enter second number" />
+			<input
+				type="number"
+				id="numC"
+				placeholder="Enter third number" />
+			<button onclick="maxOfThree()">Find Max</button>
+			<p id="maxThreeResult"></p>
+		</div>
+
+		<!-- Exercise 7: Calculate Tip -->
+		<div class="exercise">
+			<h2>Exercise 7: Calculate Tip</h2>
+			<input
+				type="number"
+				id="billAmount"
+				placeholder="Enter bill amount" />
+			<input
+				type="number"
+				id="tipPercentage"
+				placeholder="Enter tip percentage" />
+			<button onclick="calculateTip()">Calculate Tip</button>
+			<p id="tipResult"></p>
+		</div>
+
+		<!-- Exercise 8: Convert Temperature -->
+		<div class="exercise">
+			<h2>Exercise 8: Convert Temperature</h2>
+			<input
+				type="number"
+				id="tempInput"
+				placeholder="Enter temperature" />
+			<select id="tempUnit">
+				<option value="CtoF">Celsius to Fahrenheit</option>
+				<option value="FtoC">Fahrenheit to Celsius</option>
+			</select>
+			<button onclick="convertTemperature()">Convert</button>
+			<p id="tempResult"></p>
+		</div>
+
+		<!-- Exercise 9: Basic Calculator -->
+		<div class="exercise">
+			<h2>Exercise 9: Basic Calculator</h2>
+			<input
+				type="number"
+				id="calcNum1"
+				placeholder="Enter first number" />
+			<input
+				type="number"
+				id="calcNum2"
+				placeholder="Enter second number" />
+			<select id="operation">
+				<option value="+">Add</option>
+				<option value="-">Subtract</option>
+				<option value="*">Multiply</option>
+				<option value="/">Divide</option>
+			</select>
+			<button onclick="basicCalculator()">Calculate</button>
+			<p id="calcResult"></p>
+		</div>
+
+		<!-- Exercise 10: Calculate Grade -->
+		<div class="exercise">
+			<h2>Exercise 10: Calculate Grade</h2>
+			<input
+				type="number"
+				id="gradeInput"
+				placeholder="Enter score" />
+			<button onclick="calculateGrade()">Calculate Grade</button>
+			<p id="gradeResult"></p>
+		</div>
+
+		<!-- Exercise 11: Create Username -->
+		<div class="exercise">
+			<h2>Exercise 11: Create Username</h2>
+			<input
+				type="text"
+				id="firstName"
+				placeholder="First name" />
+			<input
+				type="text"
+				id="lastName"
+				placeholder="Last name" />
+			<button onclick="createUsername()">Generate Username</button>
+			<p id="usernameResult"></p>
+		</div>
+
+		<!-- Exercise 12: Number of Arguments -->
+		<div class="exercise">
+			<h2>Exercise 12: Number of Arguments</h2>
+			<input
+				type="text"
+				id="argsInput"
+				placeholder="Enter comma-separated values" />
+			<button onclick="numArgs()">Count Arguments</button>
+			<p id="argsResult"></p>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
